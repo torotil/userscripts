@@ -132,18 +132,6 @@ function paint(postID, voted) {
 	
 	var e = $('t'+postID).down('.b').childNodes[vote];
 	e.setStyle({'backgroundColor':e.getStyle('color')});
-	/*alert($('t'+postID).down('.b').down('.onclick').each(function(e, i) {
-		if (i == vote) {
-			;
-		}
-	}));
-	
-	alert(elem.childNodes);
-	return;
-	log ("paint", "updown", updown);
-	
-	alert('setting bg-color');
-	elem.setStyle({'background-color':elem.getStyle('color')});*/
 }
 
 // this one just dumps the DOM tree of any html node (i.e. HTMLDivElement)
